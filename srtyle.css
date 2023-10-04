@@ -1,0 +1,65 @@
+*{
+    background-color: white;
+    font-size: xx-large;
+    align-items: center;
+}
+#header{
+    width: 80%;
+    margin: auto;
+    height: 5vh;
+}
+#githublogo{
+    width: 150px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: #0a0a0a;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a :hover{
+    cursor: pointer;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-size: larger;
+}
+p{
+    text-align: center;
+}
+input{
+    color: black;
+    padding: 10px 20px; 
+    border-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 50px;
+}
+#submitbutton{
+    padding:15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+#form{
+    display: flex;
+    flex-direction: row;
+    border-radius: 400PX;
+}
